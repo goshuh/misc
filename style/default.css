@@ -1,0 +1,56 @@
+/* http://checkmyworking.com/cm-web-fonts/ */
+
+@font-face {
+	font-family: 'Computer Modern Serif';
+	src: url('cmunrm.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.left {
+    text-align: left;
+}
+.center {
+    text-align: center;
+}
+.right {
+    text-align: right;
+}
+
+.big {
+    font-size: 28px;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+
+    font-family: 'Computer Modern Serif';
+    font-size: 18px;
+
+    color: #D0D0D0;
+    background-color: #1C1C1C;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    font-weight: normal;
+}
+
+a, a.link, a.visited, a.hover, a.active {
+    color: #D0D0D0;
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
